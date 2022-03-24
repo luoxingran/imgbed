@@ -1,0 +1,60 @@
+FromHereBegin
+{
+    "isshow": "true",
+    "cancancel": "false",
+    "version": "5",
+    "globalbgcolor": "#FFFFFFFF",
+    "titleset": {
+        "name": "这是标题啊",
+        "textcolor": "#342422",
+        "bgcolor": "#FFFFFF",
+        "textsize": "30"
+    },
+    "contentset": {
+        "textcolor": "#FFFFFF",
+        "bgcolor": "#222222",
+        "textsize": "18",
+        "textgravity":"center",
+        "content": [
+            {
+                "text": "第1行文字"
+            },
+            {
+                "text": "第2行文字"
+            },
+            {
+                "text": "第3行文字"
+            },  
+            {
+                "text": "第4行文字"
+            }
+        ]
+    },
+    "buttonset": [
+        {
+            "name": "不再显示",
+            "textcolor": "#342422",
+            "bgcolor": "#FFFFFF",
+            "textsize": "16",
+            "visible": "true",
+            "action": ""
+        },
+        {
+            "name": "取消",
+            "textcolor": "#342422",
+            "bgcolor": "#FFFFFF",
+            "textsize": "16",
+            "visible": "true",
+            "action": ""
+        },
+        {
+            "name": "进群/链接",
+            "textcolor": "#342422",
+            "bgcolor": "#FFFFFF",
+            "textsize": "16",
+            "visible": "true",
+            "action": "link@http://www.baidu.com"
+        }
+    ]
+}
+AtHereEnd
